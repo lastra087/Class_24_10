@@ -1,0 +1,44 @@
+.fondo {
+    width: 300px;
+    border: 2px solid violet;
+}
+@keyframes titilar{
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 1;
+        transform: rotate(-45deg);
+    }
+    75%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    }
+    @keyframes colores{
+        0%{
+            color: yellow;
+        }
+        25%{
+            color: green;
+            font-size: large;
+        }
+        75%{
+            color: blue;
+        }
+        100%{
+           color: pink;
+        }
+        } 
+img{
+    width: 100%;
+}
+h1{
+    color: red;
+    animation:titilar 25s;
+}
+p{
+    animation: colores 25s 2;
+}
